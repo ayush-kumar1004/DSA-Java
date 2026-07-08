@@ -1,6 +1,5 @@
 
 public class ReverseString {
-
     public static String reverseString(String s) {
         StringBuilder sb = new StringBuilder();
         String arr[] = s.split(" ");
@@ -10,7 +9,6 @@ public class ReverseString {
             if (i % 2 == 0) {
                 for (int j = arr[i].length() - 1; j >= 0; j--) {
                     reversed += original.charAt(j);
-
                 }
                 sb.append(reversed);
                 sb.append(" ");
@@ -20,9 +18,7 @@ public class ReverseString {
 
             }
         }
-
         return sb.toString();
-
     }
 
     public static void main(String[] args) {

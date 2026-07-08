@@ -9,7 +9,7 @@ public class MergeSort {
     }
 
     public static void mergeSort(int[] arr, int si, int ei) {
-        if (si >= ei) {
+        if (si > ei) {
             return;
         }
         int mid = si + (ei - si) / 2;

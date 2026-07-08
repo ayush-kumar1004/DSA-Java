@@ -1,5 +1,4 @@
 
-
 public class TrappingRainwater {
 
     public static int trappedRainWater(int arr[]) {
