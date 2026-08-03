@@ -26,7 +26,7 @@ public class Exercise {
             arr[i] = sc.nextInt();
         }
         int find = sc.nextInt();
-
+        
         int val = arraylessthan(arr, find);
         int arr2[] = new int[val];
 
